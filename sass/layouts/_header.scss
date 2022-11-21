@@ -62,6 +62,10 @@ header {
     color: inherit;
     -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            color: #2196F3;
+        }
 
 }
 
@@ -75,11 +79,6 @@ header {
     border-radius: 2px;
     background: #2196f3;
 
-}
-
-.header-link:hover,
-.header-link:focus {
-    color: #2196F3;
 }
 
 .nav--current {
@@ -125,10 +124,8 @@ header {
     letter-spacing: 0.02em;
     color: #757575;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #2196F3;
+    &:hover,
+        &:focus {
+            color: #2196F3;
+        }
 }
